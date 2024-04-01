@@ -1,0 +1,417 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family= Gayathri: wght @100;400;700 & display=swap');
+
+
+   backgrond-color:yellow;
+}
+
+img{
+	
+	width:100%;
+			
+}
+
+tr {
+
+	width: 500px;
+ 	margin: 40px auto;
+ 	background-color: #fff;
+ 	padding: 20px;
+ 	border-radius: 16px;
+ 	box-shadow: 0 0 10px;
+		}
+
+header,#img-topo{
+	 width: 100%;
+	 height: 450px;
+	 background-color: blue;
+	 	
+			
+}
+ nav{
+ 	background-color: #00aaff;
+ 	padding: 4px;
+ 	text-align: center;
+ 	
+ 
+	color: blue;
+	text-decoration: none;
+	font: 1rem 'avenir', sans-serif
+	margin-righf:30px;
+
+}
+
+nav{
+			background-color: #00aaff;
+			width: 100%;
+			height: 20px;
+			position: sticky;
+			top: 0px;
+			z-index: 1;
+			text-align: center;
+			
+		
+
+}
+
+
+main, #pag-beficios, #pag-modalidades, #pag-treinos
+	padding: 40px;
+
+}
+
+
+
+
+h1,h2{
+	text-align: center;
+	color: blue;
+	font-family: 'amatemora',cursive;
+	font-size: 2:5rem;
+	margin-bottom: 20px;
+}
+
+
+
+p{
+	text-align: justify;
+	color: red;
+	font: 1:2rem 'avenir',sans-serif;
+	margin-bottom: 20px;
+
+}
+
+ #pag-beneficios {
+	background-color: red;
+
+}
+
+#pag-beneficios h2,#pag-beneficios p{
+
+   color: blue;
+   margin-bottom: 20px;
+
+}
+
+h2{
+	text-align: left;
+	color: red;
+	font-family: 'amatemora',cursive;
+	font-size: 2:5rem;
+
+}
+
+
+ul{
+	list-style-position: inside;
+	list-style-type: circle;
+	margin-left: 40px;
+}
+
+li{
+	color: blue;
+	font: 1,2rem 'poppins' , sans-serif;
+	line-height: 2rem;
+}
+
+
+.container{
+	display: flex;
+}
+
+
+.cart{
+	background-color: red;
+	width: 25%px;
+	margin-right: 10%px;
+}
+
+
+.img-card{
+	/*width: 100px;
+	border-radius: 16px 16px 0 0;*/
+	width: 500px;
+ 	margin: 40px auto;
+ 	background-color: #fff;
+ 	padding: 20px;
+ 	border-radius: 16px;
+ 	box-shadow: 0 0 10px;
+}
+.conteudo-treinos .container{
+	justify-content: center;
+	align-items: center;
+}
+.img-treinos{
+	/*width: 30px;*/
+	width: 500px;
+ 	margin: 40px auto;
+ 	background-color: #fff;
+ 	padding: 20px;
+ 	border-radius: 16px;
+ 	box-shadow: 0 0 10px;
+}
+
+
+footer{	
+			 width: 98%;
+			 height: 80px;
+	 		 margin:70 ;
+			background-color: #00aaff ;
+			padding: 15px;
+			font: 1.0rem 'Times New Roman', sans-serif;
+			color: white;
+			text-align: center;
+		}
+}
+ footer o, footer a{
+ 	text-align:center;
+ 	color: black; 
+ }
+
+ #pag-formulario p{
+ 	text-align: center;
+ }
+
+ form{
+ 	width: 500px;
+ 	margin: 40px auto;
+ 	background-color: #fff;
+ 	padding: 20px;
+ 	border-radius: 16px;
+ 	box-shadow: 0 0 10px;
+
+}
+ 	label, legend{
+ 		font:  1.1rem 'padding'sans-serif;
+ 		color: #212121;
+
+ 	}
+
+ 
+ input,select, fieldset , textarea{
+ 	width: 100%;
+ 	padding: 6px;
+ 	box-sizing: border-box;
+ 	font: 1rem 'poppins', sans-serif;
+ 	border: 1px solid#ccc;
+ 	border-radius: 6px;
+ 	margin-bottom: 10px;
+ }
+
+ .container-dha{
+ 	display: flex;
+ 	justify-content: space-between;
+ }
+
+ input[type="radio"], input[type="chockbox"]{
+ 	
+ 	
+ }
+
+ #bt-topo {
+			width: 70px;
+			height: 70px;
+			background-color: #00aaff;
+			border-radius: 35px;
+			position: fixed;
+			bottom: 30px;
+			right: 30px;
+			text-align: center;
+		}
+
+
+		#letra-roda {
+			font: 1.0rem 'Times New Roman', sans-serif;
+			color: white;
+			text-align: center;
+		}
+
+	table{
+	width: 300px;
+	margin: 10px 10 px 10px 10px;
+
+ 	background-color: #fff;
+ 	padding: 15px;
+ 	border-radius: 20px;
+ 	box-shadow: 10px 10px 10px 10px;
+
+
+	}
+
+
+	.formularioContato { 
+    max-width:2000px; 
+    height:auto; 
+    float:none; 
+    margin:auto; 
+    padding:1em; 
+    margin-bottom:1em; 
+    border-radius:6px; 
+    background:#fff; 
+    box-shadow: 1px 0px 1.2px 0px #ccc; 
+    position:relative; 
+}
+.formularioContato:before { 
+    width:0; 
+    height:0; 
+    border:15px solid transparent; 
+    border-bottom-color:#fff; 
+    content:""; 
+    position:absolute; 
+    left:6%; 
+    top:-4.5%; 
+    margin-top:-4px; 
+    margin-left:6px; 
+    z-index:2;
+}
+.formularioContato label  { 
+    float:left; 
+    width:100%; 
+    margin-bottom:1.2em; 
+}
+.formularioContato label span {
+    width: 100%;
+    float: left;
+    color: #999;
+    margin-bottom: 6px;
+    font-family:'open_sansregular'; 
+}
+.formularioContato label input  { 
+    font-size:1em; 
+    color:#555; 
+    font-family:'open_sansregular'; 
+    outline:none; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    transition: 0.3s;  
+}
+.formularioContato label select { 
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none; 
+    transition: 0.3s;  
+}
+.formularioContato label textarea { 
+    font-size:1em; 
+    color:#555; 
+    border:1px #dee5ed solid; 
+    border-radius:4px; 
+    padding:0.6em; 
+    outline:none;
+    transition: 0.3s;   
+}
+.formularioContato label input:focus    { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato label select:focus   { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; }
+.formularioContato label textarea:focus { box-shadow:0 0 5px 0px rgb(178,216,231); border:1px rgb(37,174,230) solid; color:rgb(37,174,230);}
+.formularioContato button.btn-envia { 
+    background-color:rgb(37,174,230); 
+    width:100%; display:block; 
+    margin:auto; cursor:pointer; 
+    border-radius:4px;  
+    border:0; 
+    padding:0.8em 0em; 
+    color:#fff; 
+    font-size:1.3em; 
+    font-family:'open_sansbold'; 
+    text-align: center;
+    transition: 0.3s;   
+}
+.formularioContato button.btn-envia:hover { 
+    background-color:#333; 
+
+
+   
+
+
+
+
+.box-social    { 
+
+  margin: auto;
+  display: table;
+
+}
+
+.box-social li {  
+
+  float:left; 
+  text-align:center; 
+  margin: 5px;
+
+}
+
+.fa {
+  font-size: 32px !important;
+  margin-top: 23%;
+}
+
+.icone-box-facebook {
+  width: 53px;
+  height: 53px;
+  background-color:#3b5998;
+  color: #fff;
+}
+
+.icone-box-instagram {
+  width: 53px;
+  height: 53px;
+  background:hsl(0 0% 10%);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color:#fff;
+}
+
+.icone-box-twitter {
+  width: 53px;
+  height: 53px;
+  background-color:#00aced;
+  color: #fff;
+}
+
+.icone-box-youtube {
+  width: 53px;
+  height: 53px;
+  background-color:#dd4b39;
+  color:#fff;
+}
+
+/* SOMBRA BASE */
+
+.sombra-base {
+
+  display: inline-block;
+  position: relative;
+  transition-duration: 0.3s;
+  transition-property: transform;
+  -webkit-tap-highlight-color: transparent;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  border-radius: 50px;
+
+}
+
+.sombra-base:before {
+
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+  transition-duration: 0.3s;
+  transition-property: transform opacity;
+
+}
+
+.sombra-base:hover        { transform: translateY(-6px); }
+.sombra-base:hover:before { opacity: 1; transform: translateY(6px); }
+
+/* FIM SOMBRA BASE */
